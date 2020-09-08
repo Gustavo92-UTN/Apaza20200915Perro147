@@ -6,13 +6,13 @@ public class Perro{
     private String color;
 //Creando contructor que reciba como parametro uno de sus atributos
     public Perro(int edad){
-        System.out.println("Creando un perro...");
+        //System.out.println("\nCreando un perro...");
     }
 //Creando metodo para la clase Perro
     public void ladrar(){
         System.out.println("GUAU");
     }
-    
+//Creando metodos set y get
     public void setEdad(int edad){
         if(edad > 0 && edad < 30){
             this.edad = edad;
